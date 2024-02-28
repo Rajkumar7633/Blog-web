@@ -1,0 +1,88 @@
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #04f2f2;
+    justify-content: baseline;
+    text-align: center;
+    padding-top: 1%;
+    margin: 0;
+}
+body{
+    background-color: #00ffff;
+    margin: 0px;
+}
+.blog-list {
+list-style: none;
+margin: 40;
+padding: 40;
+background-color: #f0f8ff;
+}
+
+.blog-post {
+border-bottom: 1px solid #ccc;
+padding: 10px;
+display: flex;
+flex-direction: column;
+flex: 9 1;
+}
+
+.blog-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.blog-title {
+font-size: 30px;
+margin: 0;
+}
+.blog-buttons{
+display: flex;
+flex-direction: column;
+text-decoration: none;
+}
+.blog-button{
+        background-color: antiquewhite;
+}
+
+.blog-button{
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  /* box-shadow: rgba(44, 187, 99, .2) 0 -5px 8px -4px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px; */
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  /* padding: 7px 20p; */
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 15px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 2px;
+}
+
+.blog-button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.blog-date {
+margin: 0;
+font-weight: bold;
+}
+.blog-box{
+        display: flex;
+        flex-direction: row;
+        flex-flow:wrap ;
+        
+}
+
+.blog-content {
+margin: 0;
+line-height: 1.5;
+}
